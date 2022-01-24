@@ -1,19 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './components/navbar'
+import Footer from './components/footer'
+import MetState from './components/metState'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-       <div>
-         <div className="class">
-           hello world
-           
-         </div>
-       </div>
-        
-      </header>
+       hello vijay  thisis america
+       <Navbar/>
+       <Footer name="vijay ratan singh" age="23" />
+       <MetState/>
     </div>
   );
 }
