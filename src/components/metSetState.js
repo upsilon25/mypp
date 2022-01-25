@@ -24,8 +24,8 @@ class MetSetState extends Component{
         return(
             <div>
                 <h1>=metState - {this.state.message}</h1>
-                <button onClick={this.eventHandler1.bind(this)}>change</button>                
-                <button onClick={()=>this.eventHandler2()}>change</button>
+                <button onClick={this.eventHandler1.bind(this)}>change1</button>                
+                <button onClick={()=>this.eventHandler2()}>change2</button>
             </div>        
             )
     }
