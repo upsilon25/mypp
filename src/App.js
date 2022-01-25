@@ -5,6 +5,7 @@ import Footer from './components/footer'
 import MetState from './components/metState'
 import Counter from './components/counter'
 import MetSetState from './components/metSetState'
+import Parent from './components/Parent';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
        <MetState/>
        <Counter/>
        <MetSetState />
+       <Parent />
     </div>
   );
 }
