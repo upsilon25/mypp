@@ -10,8 +10,8 @@ class Parent extends Component{
         }
     this.greetP=this.greetP.bind(this)
     }
-    greetP(){
-        alert(`Hello`)
+    greetP(childna){
+        alert(`Hello this is ${childna}`)
         this.setState({
             message:"changed From CHild"
         })
