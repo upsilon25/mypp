@@ -8,11 +8,12 @@ import MetSetState from './components/metSetState'
 import Parent from './components/Parent';
 import Render from './components/renderCondition'
 import Array from './components/Arrays'
-
+import NameList from './components/Namelist'
 function App() {
   return (
     <div className="App">
-       
+       <NameList />
+       <h1>thos os new</h1>
        <Array />
        <Render />
       
