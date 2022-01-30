@@ -9,9 +9,15 @@ import Parent from './components/Parent';
 import Render from './components/renderCondition'
 import Array from './components/Arrays'
 import NameList from './components/Namelist'
+import Stylesheet from './components/Stylesheet'
+
+import From from './components/Form';
+
 function App() {
   return (
     <div className="App">
+       <From />
+       <Stylesheet />   
        <NameList />
        <h1>thos os new</h1>
        <Array />
