@@ -19,7 +19,7 @@ function UseState(){
     return(
         <div className="usestate">
     <button onClick={decrement}  className="insert">-</button>
-    <h1>{count}=={th}</h1>
+    <h1>{count} {th}</h1>
     <button onClick={increment} className="insert">+</button>
     </div>
     )
